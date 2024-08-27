@@ -1,0 +1,72 @@
+body {
+    background-color: #000000;
+    color: #333333;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    background-color: #1a1a1a;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #dcdcdc !important;
+}
+
+.card {
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #1a1a1a;
+    color: #dcdcdc;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.btn-outline-primary {
+    color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-outline-primary:hover {
+    color: #ffffff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-outline-warning {
+    color: #d39e00;
+    border-color: #d39e00;
+}
+
+.btn-outline-warning:hover {
+    color: #ffffff;
+    background-color: #d39e00;
+    border-color: #d39e00;
+}
+
+.card-custom {
+    width: 16rem;
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.overflow-scroll-horizontal {
+    overflow-x: auto;
+    white-space: nowrap;
+}
